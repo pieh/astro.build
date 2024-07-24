@@ -15,6 +15,10 @@ specifiers:
   '@astrojs/web-vitals': ^0.2.1
   '@biomejs/biome': 1.7.0
   '@iconify-json/ri': ^1.1.20
+  '@img/sharp-darwin-arm64': 0.33.4
+  '@img/sharp-libvips-darwin-arm64': 1.0.2
+  '@img/sharp-libvips-linux-x64': 1.0.2
+  '@img/sharp-linux-x64': 0.33.4
   '@octokit/graphql': ^7.0.2
   '@types/json-to-pretty-yaml': 1.2.1
   '@types/node': ^20.10.4
@@ -53,6 +57,10 @@ dependencies:
   '@astrojs/tailwind': 5.1.0_astro@4.12.2+tailwindcss@3.4.6
   '@astrojs/web-vitals': 0.2.1_@astrojs+db@0.11.7
   '@iconify-json/ri': 1.1.21
+  '@img/sharp-darwin-arm64': 0.33.4
+  '@img/sharp-libvips-darwin-arm64': 1.0.2
+  '@img/sharp-libvips-linux-x64': 1.0.2
+  '@img/sharp-linux-x64': 0.33.4
   astro: 4.12.2_597da651380417b90b423a4a93c3ebd0
   astro-expressive-code: 0.35.3_astro@4.12.2
   chart.js: 4.4.1
@@ -1268,7 +1276,6 @@ packages:
     requiresBuild: true
     optionalDependencies:
       '@img/sharp-libvips-darwin-arm64': 1.0.2
-    optional: true
 
   /@img/sharp-darwin-x64/0.33.4:
     resolution: {integrity: sha512-0l7yRObwtTi82Z6ebVI2PnHT8EB2NxBgpK2MiKJZJ7cz32R4lxd001ecMhzzsZig3Yv9oclvqqdV93jo9hy+Dw==}
@@ -1286,7 +1293,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    optional: true
 
   /@img/sharp-libvips-darwin-x64/1.0.2:
     resolution: {integrity: sha512-Ofw+7oaWa0HiiMiKWqqaZbaYV3/UGL2wAPeLuJTx+9cXpCRdvQhCLG0IH8YGwM0yGWGLpsF4Su9vM1o6aer+Fw==}
@@ -1326,7 +1332,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    optional: true
 
   /@img/sharp-libvips-linuxmusl-arm64/1.0.2:
     resolution: {integrity: sha512-3CAkndNpYUrlDqkCM5qhksfE+qSIREVpyoeHIU6jd48SJZViAmznoQQLAv4hVXF7xyUB9zf+G++e2v1ABjCbEQ==}
@@ -1382,7 +1387,6 @@ packages:
     requiresBuild: true
     optionalDependencies:
       '@img/sharp-libvips-linux-x64': 1.0.2
-    optional: true
 
   /@img/sharp-linuxmusl-arm64/0.33.4:
     resolution: {integrity: sha512-nhr1yC3BlVrKDTl6cO12gTpXMl4ITBUZieehFvMntlCXFzH2bvKG76tBL2Y/OqhupZt81pR7R+Q5YhJxW0rGgQ==}
